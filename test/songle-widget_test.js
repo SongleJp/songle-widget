@@ -1,7 +1,7 @@
 'use strict';
 
-const SW = require('../lib/main');
-const assert = require('assert');
+import SW from '../lib/main';
+import assert from 'power-assert';
 
 describe('Player', () => {
   it('instantiates', () => {
