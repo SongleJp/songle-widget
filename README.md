@@ -45,7 +45,8 @@ npm install songle-widget --save
   var p = new SW.Player({
     accessToken: 'your access token here'
   , secretToken: 'your secret token here'
-  , mediaElement: 'div.widget'
+  // Node.jsはWebブラウザではないので音楽の再生はできない
+  //, mediaElement: 'div.widget'
   });
   p.addPlugin(new SW.Plugin.SongleSync());
   p.useMedia('http://youtube.com/watch?v=xOKplMgHxxA');
