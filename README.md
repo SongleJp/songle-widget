@@ -4,6 +4,7 @@ Songle Syncは音楽に合わせて沢山のスマートフォン・パソコン
 
 サンプルプログラムは以下のページに掲載されています。
 
+- [ブラウザ向けプロジェクト](https://github.com/SongleJp/songle-sync-app-browser)
 - [Raspberry Pi向けslaveプロジェクト](https://github.com/SongleJp/songle-sync-app-pi)
 - [Node.js向けslaveプロジェクト](https://github.com/SongleJp/songle-sync-app-nodejs)
 - [Intel Edison向けslaveプロジェクト](https://github.com/SongleJp/songle-sync-app-edison)
