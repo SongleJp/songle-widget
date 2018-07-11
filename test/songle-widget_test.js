@@ -28,7 +28,10 @@ describe('Player', () => {
       player.addPlugin(new SW.Plugin.SongleSync());
 
       browser = new HeadlessChrome({
-        headless: true
+        headless: true,
+        chrome: {
+          flags: ['--autoplay-policy=no-user-gesture-required']
+        }
       });
 
       await browser.init();
@@ -37,7 +40,7 @@ describe('Player', () => {
 
       await tab.goTo('https://jsfiddle.net/ow6bwxnk/2/');
 
-      await tab.wait(5000)
+      await tab.wait(5000);
     });
 
     afterEach(async () => {
