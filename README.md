@@ -1,4 +1,4 @@
-# Songle Sync API
+# Songle Sync API [![Build Status](https://travis-ci.org/SongleJp/songle-widget.svg?branch=master)](https://travis-ci.org/SongleJp/songle-widget)
 
 Songle Syncは音楽に合わせて沢山のスマートフォン・パソコン・IoTデバイスを制御できる大規模音楽連動制御プラットフォームです。Songle Sync APIを使うと、JavaScriptで音楽に連動したイベント駆動のプログラムを容易に記述できます。
 
