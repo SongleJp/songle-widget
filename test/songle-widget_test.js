@@ -1,21 +1,21 @@
 'use strict';
 
 import HeadlessChrome from 'simple-headless-chrome';
-import SW from '../lib/main';
+import Songle from '../lib/main';
 import assert from 'power-assert';
 
 describe('Player', () => {
   let player;
 
   beforeEach(async () => {
-    player = new SW.Player({
+    player = new Songle.Player({
       accessToken: '0000000a-LPwFZzr'
     });
   });
 
   it('instantiates', () => {
     assert(player);
-    assert(player instanceof SW.Player);
+    assert(player instanceof Songle.Player);
   });
 
   describe('Songle Sync', function() {
@@ -25,7 +25,7 @@ describe('Player', () => {
     let tab;
 
     beforeEach(async () => {
-      player.addPlugin(new SW.Plugin.SongleSync());
+      player.addPlugin(new Songle.Plugin.SongleSync());
 
       browser = new HeadlessChrome({
         headless: true,
