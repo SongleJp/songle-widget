@@ -8,7 +8,6 @@
     "w3c-xmlhttprequest": "^2.1.2"
   },
   "description": "Songle Syncは音楽に合わせて沢山のスマートフォン・パソコン・IoTデバイスを制御できる大規模音楽連動制御プラットフォームです。Songle Sync APIを使うと、JavaScriptで音楽に連動したイベント駆動のプログラムを容易に記述できます。Songle SyncはSongle Widgetと呼ばれていたAPIの発展形に含まれるため、 songle-widget という名前のnpmパッケージ・リポジトリで公開されています。",
-  "homepage": "http://api.songle.jp/widget",
   "repository": "SongleJp/songle-widget",
   "keywords": [
     "songle",
