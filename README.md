@@ -1,3 +1,3 @@
-## This npm package is DEPRECATED. Please use [songle-api](//github.com/SongleJp/songle-api) npm package.
+# deprecation notice
 
-This package and repository will not be updated.
+This is the DEPRECATED npm package about the [Songle API](//api.songle.jp). It's will NOT be updated. Please use the [songle-api npm package](//www.npmjs.com/package/songle-api).
