@@ -1,6 +1,6 @@
 {
   "name": "songle-widget",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Songle API client library",
   "keywords": [
     "songle",
@@ -10,12 +10,7 @@
     "experience"
   ],
   "homepage": "https://api.songle.jp",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "author": {
     "name": "AIST Songle Project",
     "email": "songle-api-ml@aist.go.jp",
